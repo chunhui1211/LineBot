@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="TestLineBot.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Template message.aspx.cs" Inherits="TestLineBot.WebForm2" %>
 
 <!DOCTYPE html>
 
@@ -25,6 +25,9 @@
     
     </div>
         <asp:Button ID="Button3" runat="server" Text="Push Tempalte Message" OnClick="Button3_Click" />
+        <br />
+        <br />
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Button" />
     </form>
 </body>
 </html>
