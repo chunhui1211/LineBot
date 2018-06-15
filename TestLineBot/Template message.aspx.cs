@@ -11,8 +11,8 @@ namespace TestLineBot
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
-        const string channelAccessToken = "/P9PjPSbe2fsvsz0LEB1/yoIBxz4qLV5H8RfpGmXmgEi67nzwBlsXvNSTagzwFC8ez1J5Ui6HkjnjKg0cw0Tby9tBI/dfODff2CFn2IMBFNUqBKlpcw9bu5T+ygnWkq3cip1ZLQ8eL+l1ajShTqG7wdB04t89/1O/w1cDnyilFU=";
-        const string AdminUserId = "Uc9d21bb74f13334be35b46b6581b9416";
+        const string channelAccessToken = "";
+        const string AdminUserId = "";
 
         protected void Page_Load(object sender, EventArgs e)
         {

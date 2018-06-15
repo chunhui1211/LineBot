@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLineBot", "TestLineBot\TestLineBot.csproj", "{A54ECF0D-3437-4B9F-928D-B065D72C1FF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QnA", "QnA\QnA.csproj", "{A53C75FA-DCEC-4EF3-831F-7A345F0E5E30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A54ECF0D-3437-4B9F-928D-B065D72C1FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A54ECF0D-3437-4B9F-928D-B065D72C1FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A54ECF0D-3437-4B9F-928D-B065D72C1FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53C75FA-DCEC-4EF3-831F-7A345F0E5E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53C75FA-DCEC-4EF3-831F-7A345F0E5E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53C75FA-DCEC-4EF3-831F-7A345F0E5E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53C75FA-DCEC-4EF3-831F-7A345F0E5E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

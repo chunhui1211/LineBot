@@ -6,12 +6,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace TestLineBot
+namespace QnA
 {
     public partial class _default : System.Web.UI.Page
     {
-        const string channelAccessToken = "";
-        const string AdminUserId= "";
+        const string channelAccessToken = "!!!!! 改成自己的ChannelAccessToken !!!!!";
+        const string AdminUserId= "!!!改成你的AdminUserId!!!";
 
         protected void Page_Load(object sender, EventArgs e)
         {

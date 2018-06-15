@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A54ECF0D-3437-4B9F-928D-B065D72C1FF7}</ProjectGuid>
+    <ProjectGuid>{A53C75FA-DCEC-4EF3-831F-7A345F0E5E30}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestLineBot</RootNamespace>
-    <AssemblyName>TestLineBot</AssemblyName>
+    <RootNamespace>QnA</RootNamespace>
+    <AssemblyName>QnA</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -89,10 +89,7 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="temp\IMG_3492.png" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
-    <Content Include="Template message.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -107,29 +104,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Template message.aspx.cs">
-      <DependentUpon>Template message.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Template message.aspx.designer.cs">
-      <DependentUpon>Template message.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\2018LineBot - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\2018LineBot - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\ChunhuiLineBot - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\ChunhuiLineBot - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\ChunhuiLinebotLuis - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\ChunhuiLinebotLuis - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\2018LineBotQnA - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\2018LineBotQnA - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -154,9 +133,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5209</DevelopmentServerPort>
+          <DevelopmentServerPort>2348</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5209/</IISUrl>
+          <IISUrl>http://localhost:2348/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -5,15 +5,15 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace TestLineBot.Controllers
+namespace QnA.Controllers
 {
     public class TestLUISController : isRock.LineBot.LineWebHookControllerBase
     {
-        const string channelAccessToken = "/P9PjPSbe2fsvsz0LEB1/yoIBxz4qLV5H8RfpGmXmgEi67nzwBlsXvNSTagzwFC8ez1J5Ui6HkjnjKg0cw0Tby9tBI/dfODff2CFn2IMBFNUqBKlpcw9bu5T+ygnWkq3cip1ZLQ8eL+l1ajShTqG7wdB04t89/1O/w1cDnyilFU=";
-        const string AdminUserId = "Uc9d21bb74f13334be35b46b6581b9416";
-        const string LuisAppId = "75176acd-d9cc-4b4b-bb95-51197840206f";
-        const string LuisAppKey = "87f65b4b7ce446ad8787c8f7a61f56aa";
-        const string Luisdomain = "westus"; //ex.westus
+        const string channelAccessToken = "~~~請改成自己的ChannelAccessToken~~~";
+        const string AdminUserId = "~~~改成你的AdminUserId~~~";
+        const string LuisAppId = "~~~改成你的LuisAppId~~~";
+        const string LuisAppKey = "~~~改成你的LuisAppKey~~~";
+        const string Luisdomain = "~~~改成你的Luisdomain~~~"; //ex.westus
 
         [Route("api/TestLUIS")]
         [HttpPost]
