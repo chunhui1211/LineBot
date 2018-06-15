@@ -11,8 +11,8 @@ namespace StudyHostExampleLinebot.Controllers
     {
         const string channelAccessToken = "";
         const string AdminUserId = "";
-        const string QnAKey = "";
-        const string Endpoint = "";
+        const string QnAKey = ""; 
+        const string Endpoint = ""; //ex.westus
         const string UnknowAnswer = "不好意思，您可以換個方式問嗎? 我不太明白您的意思...";
 
         [Route("api/TestQnA")]
